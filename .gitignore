@@ -1,0 +1,21 @@
+# Секреты и ключи (САМОЕ ВАЖНОЕ!)
+.env
+*.pem
+*.key
+
+# Python кэш и виртуальные окружения
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Docker и базы данных (если вдруг случайно смонтировались в папку)
+postgres_data/
+pgdata/
+
+# IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
